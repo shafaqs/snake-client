@@ -14,6 +14,8 @@ const connect = function() {
     console.log("server says:", data);
   });
 
+  //stdin.on("data", handleUserInput);
+
   // interpret incoming data as text
   conn.setEncoding("utf8");
 
